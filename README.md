@@ -38,7 +38,7 @@ After rebooting PC, please check the response of following code.
 docker images
 ```
 
-If the installation is successed, the response is ...
+If the installation is successed, the response is like this.
 
 ```bash
 REPOSITORY          TAG                 IMAGE ID            CREATED             VIRTUAL SIZE
@@ -46,11 +46,20 @@ REPOSITORY          TAG                 IMAGE ID            CREATED             
 
 
 
-### 2. Download CARLA Server
+### 2. Download and extract CARLA binary
 
-Following the
+Following the code, please download the binary version of CARLA 0.9.4.(https://carlachallenge.org/get-started/)
+
+```bash
+wget http://carla-assets-internal.s3.amazonaws.com/Releases/Linux/Dev/CARLA_Latest.tar.gz
+```
+
+After downloading, you can get "CARLA_Latest.tar.gz". Please extract the gz file in your home dir.
+
 
 ### 3. Pull Docker images of Automatic data collector 
+
+
 
 ### 4. Collect data
 
