@@ -100,21 +100,21 @@ If you want to select save topics and path, you should change the line 30 of "/w
 
 ### 5. Collected rosbag information
 
-*tf
-*image_raw
-*points_raw
-*vector_map
-*lane_waypoints_array
-*carla/hero/objects
-*carla/hero/odometry
-*occupancy_grid_0〜9
-*vector_image_raw 
-*vector_image_raw/ego_vehicle
-*vector_image_raw/hd_map
-*vector_image_raw/objects
-*vector_image_raw/points
-*vector_image_raw/waypoint
-*vector_image_raw/without_ego_vehicle
+* tf
+* image_raw
+* points_raw
+* vector_map
+* lane_waypoints_array
+* carla/hero/objects
+* carla/hero/odometry
+* occupancy_grid_0〜9
+* vector_image_raw 
+* vector_image_raw/ego_vehicle
+* vector_image_raw/hd_map
+* vector_image_raw/objects
+* vector_image_raw/points
+* vector_image_raw/waypoint
+* vector_image_raw/without_ego_vehicle
 
 ### 6. Sample Video
 
