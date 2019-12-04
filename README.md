@@ -90,10 +90,31 @@ cd CARLA_Latest
 
 The code is running the docker image in another terminal.
 ```bash
-docker run -it --net=host --runtime=nvidia -e NVIDIA_VISIBLE_DEVICES=0 -e CHALLENGE_PHASE_CODENAME=debug_track_0 -v /mnt:/media/brainiv shunchan0677/carla-data-collector:latest /bin/bash
+docker run -it --net=host --runtime=nvidia -e NVIDIA_VISIBLE_DEVICES=0 -e CHALLENGE_PHASE_CODENAME=debug_track_0 -v /media/<user>/<savedir>:/mnt shunchan0677/carla-data-collector:latest /bin/bash
 
 bash scenario_runner/srunner/challenge/run_evaluator.sh # in docker terminal
 ```
+
+The rosbag data is saved on `<user>/<savedir>/PioMeidai`.
+If you want to select save topics and path, you should change 
+
+### 5. Collected rosbag information
+
+*tf
+*image_raw
+*points_raw
+*occupancy_grid_0〜9
+*vector_image_raw 
+*vector_image_raw/ego_vehicle
+*vector_image_raw/hd_map
+*vector_image_raw/objects
+*vector_image_raw/points
+*vector_image_raw/waypoint
+*vector_image_raw/without_ego_vehicle
+
+### 6. Sample Video
+
+
 
 ## Data extractor
 
