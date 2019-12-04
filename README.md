@@ -118,7 +118,7 @@ If you want to select save topics and path, you should change the line 30 of "/w
 
 ### 6. Sample Video
 
-[![Sample Video](http://img.youtube.com/vi/BsZoPSsqa5A/0.jpg)](http://www.youtube.com/watch?v=BsZoPSsqa5A)
+[![Sample Video](http://img.youtube.com/vi/YM7BAHmJwjM/0.jpg)](http://www.youtube.com/watch?v=YM7BAHmJwjM)
 
 ## Data extractor
 
