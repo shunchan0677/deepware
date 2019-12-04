@@ -90,7 +90,9 @@ cd CARLA_Latest
 
 The code is running the docker image in another terminal.
 ```bash
+docker run -it --net=host --runtime=nvidia -e NVIDIA_VISIBLE_DEVICES=0 -e CHALLENGE_PHASE_CODENAME=debug_track_0 -v /mnt:/media/brainiv shunchan0677/carla-data-collector:latest /bin/bash
 
+bash scenario_runner/srunner/challenge/run_evaluator.sh
 ```
 
 ## Data extractor
