@@ -14,7 +14,16 @@ Deepware is the Deep Learning-based Autonomous Driving Toolkit, mainly focuses o
 
 Automatic data collector is used CARLA, Docker and Autoware. The collected data is saved as ROSBAG.
 
+### 0. Requirements
+
+* Ubuntu 16.04
+* ROS Kinetic
+* GPU setting using NVIDIA Driver
+
 ### 1. Install Docker
+
+Following the docs, Please install docker system.  
+https://docs.docker.com/install/linux/docker-ce/ubuntu/
 
 ### 2. Download CARLA Server
 
