@@ -38,6 +38,14 @@ After rebooting PC, please check the response of following code.
 docker images
 ```
 
+If the installation is successed, the response is ...
+
+```bash
+REPOSITORY          TAG                 IMAGE ID            CREATED             VIRTUAL SIZE
+```
+
+
+
 ### 2. Download CARLA Server
 
 Following the
