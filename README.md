@@ -2,12 +2,19 @@
 
 Deepware is the Deep Learning-based Autonomous Driving Toolkit, mainly focuses on end-to-end and mid-to-mid driving. Deepware is used ROS/ROS2, Tensorflow, Autoware, Docker and CARLA/LGSVL. Deepware is provided automatic data collector, data extractor, data augmenter, model trainer and driving agents.
 
-
+* [Related works](#Related-works)
 * [Automatic data collector](#Automatic-data-collector)
 * [Data extractor](#Data-extractor)
 * [Data augmenter](#Data-augmenter)
 * [Model trainer](#Model-trainer)
 * [Driving agents](#Driving-agents)
+
+## Related works
+* Mariusz Bojarski, et al. "End to End Learning for Self-Driving Cars,"
+  * https://arxiv.org/abs/1604.07316
+* Felipe Codevilla, et al. "End-to-end Driving via Conditional Imitation Learning,"
+  * https://arxiv.org/abs/1710.02410
+
 
 
 ## Automatic data collector
