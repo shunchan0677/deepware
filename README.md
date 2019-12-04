@@ -23,9 +23,17 @@ Automatic data collector is used CARLA, Docker and Autoware. The collected data 
 ### 1. Install Docker
 
 Following the docs, Please install docker system.  
-https://docs.docker.com/install/linux/docker-ce/ubuntu/
+https://docs.docker.com/install/linux/docker-ce/ubuntu/  
+
+After that, please check the installation of docker.
+
+```bash
+docker images
+```
 
 ### 2. Download CARLA Server
+
+Following the
 
 ### 3. Pull Docker images of Automatic data collector 
 
