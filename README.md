@@ -25,7 +25,14 @@ Automatic data collector is used CARLA, Docker and Autoware. The collected data 
 Following the docs, Please install docker system.  
 https://docs.docker.com/install/linux/docker-ce/ubuntu/  
 
-After that, please check the installation of docker.
+Following the code, user is added docker group not to need "sudo".
+
+```bash
+sudo groupadd docker
+sudo gpasswd -a $USER docker
+```
+
+After rebooting PC, please check the response of following code.
 
 ```bash
 docker images
