@@ -69,7 +69,7 @@ After downloading, you can get "CARLA_Latest.tar.gz". Please extract the gz file
 Pull the docker images of Automatic data collector using the code.
 
 ```bash
-docker pull shunchan0677/carla-ros-automatic-data-collector
+docker pull shunchan0677/carla-data-collector
 ```
 
 
