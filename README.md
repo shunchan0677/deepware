@@ -66,9 +66,28 @@ After downloading, you can get "CARLA_Latest.tar.gz". Please extract the gz file
 
 ### 3. Pull Docker images of Automatic data collector 
 
+Pull the docker images of Automatic data collector using the code.
+
+```bash
+docker pull shunchan0677/carla-ros-automatic-data-collector
+```
 
 
-### 4. Collect data
+### 4. Start Collecting data
+
+For collecting rosbag data, Running CARLA server and the docker image are required.
+
+The code is running CARLA server.
+
+```bash
+cd CARLA_Latest
+./CarlaUE4.sh -benchmark -fps=20 -quality-level=Epic
+```
+
+The code is running the docker image in another terminal.
+```bash
+
+```
 
 ## Data extractor
 
