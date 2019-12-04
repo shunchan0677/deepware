@@ -95,14 +95,18 @@ docker run -it --net=host --runtime=nvidia -e NVIDIA_VISIBLE_DEVICES=0 -e CHALLE
 bash scenario_runner/srunner/challenge/run_evaluator.sh # in docker terminal
 ```
 
-The rosbag data is saved on `<user>/<savedir>/PioMeidai`.
-If you want to select save topics and path, you should change 
+The rosbag data is saved on `<user>/<savedir>/PioMeidai`. (You need to check the path!)
+If you want to select save topics and path, you should change the line 30 of "/workspace/team_code/carla-autoware/autoware_launch/points_raw.launch" in docker container.
 
 ### 5. Collected rosbag information
 
 *tf
 *image_raw
 *points_raw
+*vector_map
+*lane_waypoints_array
+*carla/hero/objects
+*carla/hero/odometry
 *occupancy_grid_0〜9
 *vector_image_raw 
 *vector_image_raw/ego_vehicle
