@@ -7,7 +7,8 @@ Deepware is the Deep Learning-based Autonomous Driving Toolkit, mainly focuses o
 * [Data extractor](#Data-extractor)
 * [Data augmenter](#Data-augmenter)
 * [Model trainer](#Model-trainer)
-* [Driving agents](#Driving-agents)
+* [Model Zoo](#Model-zoo)
+* [Model evaluater](#Model-evaluater)
 
 ## Related works
 * Mariusz Bojarski, et al. "End to End Learning for Self-Driving Cars,"
@@ -132,6 +133,10 @@ TODO
 
 TODO
 
-## Driving agents
+## Model Zoo
+
+TODO
+
+## Model evaluater
 
 TODO
