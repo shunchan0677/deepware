@@ -10,6 +10,8 @@ Deepware is the Deep Learning-based Autonomous Driving Toolkit, mainly focuses o
 * [Model Zoo](#Model-zoo)
 * [Model evaluater](#Model-evaluater)
 
+![pipeline](https://github.com/shunchan0677/deepware/blob/master/pipeline.png)
+
 ## Related works
 * Mariusz Bojarski, et al. "End to End Learning for Self-Driving Cars,"
   * https://arxiv.org/abs/1604.07316
