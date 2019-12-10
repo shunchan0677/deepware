@@ -95,6 +95,9 @@ The code is running the docker image in another terminal.
 ```bash
 docker run -it --net=host --runtime=nvidia -e NVIDIA_VISIBLE_DEVICES=0 -e CHALLENGE_PHASE_CODENAME=debug_track_0 -v /media/<user>/<savedir>:/mnt shunchan0677/carla-data-collector:latest /bin/bash
 
+#if you want to use object maps
+#docker run -it --net=host --runtime=nvidia -e NVIDIA_VISIBLE_DEVICES=0 -e CHALLENGE_PHASE_CODENAME=debug_track_0 -v /media/<user>/<savedir>:/mnt 20191210icra-all:latest /bin/bash
+
 bash scenario_runner/srunner/challenge/run_evaluator.sh # in docker terminal
 ```
 
