@@ -121,6 +121,7 @@ If you want to select save topics and path, you should change the line 30 of "/w
 * vector_image_raw/points
 * vector_image_raw/waypoint
 * vector_image_raw/without_ego_vehicle
+* all
 
 ### 6. Sample Video
 
