@@ -62,13 +62,10 @@ REPOSITORY          TAG                 IMAGE ID            CREATED             
 
 ### 2. Download and extract CARLA binary
 
-Following the code, please download the binary version of CARLA 0.9.4.(https://carlachallenge.org/get-started/)
+Following the google drive, please download the binary version of CARLA 0.9.5.  
+https://drive.google.com/file/d/13QqmXtE0q6imMTmGidWtytJQp1fcPGtI/view?usp=sharing
 
-```bash
-wget http://carla-assets-internal.s3.amazonaws.com/Releases/Linux/Dev/CARLA_Latest.tar.gz
-```
-
-After downloading, you can get "CARLA_Latest.tar.gz". Please extract the gz file in your home dir.
+After downloading, you can get "carla_095.tar.gz". Please extract the gz file in your home dir.
 
 
 ### 3. Pull Docker images of Automatic data collector 
