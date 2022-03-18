@@ -1,0 +1,5 @@
+Trainer/loss/*
+Trainer/model/*
+OGM/build/*
+OGM/devel/*
+*/install/*

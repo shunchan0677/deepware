@@ -1,0 +1,4 @@
+epoch:=0 ,train_acc:=0.000000 ,test_acc:=0.860592 ModelSave!
+epoch:=1 ,train_acc:=0.000000 ,test_acc:=0.860542 ModelSave!
+epoch:=2 ,train_acc:=0.000000 ,test_acc:=0.865592 ModelSave!
+epoch:=3 ,train_acc:=0.000000 ,test_acc:=0.859912 ModelSave!

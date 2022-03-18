@@ -1,0 +1,2 @@
+epoch:=0 ,train_acc:=0.000000 ,test_acc:=4007.292700 ModelSave!
+epoch:=0 ,train_acc:=0.000000 ,test_acc:=0.944138 ModelSave!
