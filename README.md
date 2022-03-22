@@ -14,6 +14,10 @@ Deepware is the Deep Learning-based Autonomous Driving Toolkit, mainly focuses o
 
 *  [Related work](https://github.com/shunchan0677/deepware/blob/master/docs/RelatedWork.md)
 
+## Install
+
+*  [Install](https://github.com/shunchan0677/deepware/blob/master/docs/Install.md)
+
 ## Modules
 
 *  [Data creation](https://github.com/shunchan0677/deepware/blob/master/docs/DataCreation.md)
