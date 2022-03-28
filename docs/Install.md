@@ -9,10 +9,14 @@ Deepware modules are for data collection, model training and model evaluation.
 git clone https://github.com/shunchan0677/deepware
 ```
 
-Setup development environment
+Setup development environment(virtualenv, python 2.7.5)
 
 ```bash
-source activate
+sudo pip install virtualenv 
+
+virtualenv deepware
+
+source bin/activate
 ```
 
 Install requirements module
