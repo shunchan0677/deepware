@@ -3,6 +3,25 @@
 
 ## Deepware modules
 
+Deepware modules are for data collection, model training and model evaluation.
+
+```bash
+git clone https://github.com/shunchan0677/deepware
+```
+
+Setup development environment
+
+```bash
+source activate
+```
+
+Install requirements module
+
+```bash
+pip install requirements.txt
+```
+
+
 ## Automatic data collector
 
 Automatic data collector is used CARLA, Docker and Autoware. The collected data is saved as ROSBAG.
