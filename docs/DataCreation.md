@@ -1,58 +1,5 @@
 
-## Automatic data collector
-
-Automatic data collector is used CARLA, Docker and Autoware. The collected data is saved as ROSBAG.
-
-### 0. Requirements
-
-* Ubuntu 16.04
-* ROS Kinetic
-* GPU setting using NVIDIA Driver
-
-### 1. Install Docker
-
-Following the docs, Please install docker system.  
-https://docs.docker.com/install/linux/docker-ce/ubuntu/  
-
-Following the code, user is added docker group not to need "sudo".
-
-```bash
-sudo groupadd docker
-sudo gpasswd -a $USER docker
-```
-
-After rebooting PC, please check the response of following code.
-
-```bash
-docker images
-```
-
-If the installation is successed, the response is like this.
-
-```bash
-REPOSITORY          TAG                 IMAGE ID            CREATED             VIRTUAL SIZE
-```
-
-
-
-### 2. Download and extract CARLA binary
-
-Following the google drive, please download the binary version of CARLA 0.9.5.  
-https://drive.google.com/file/d/13QqmXtE0q6imMTmGidWtytJQp1fcPGtI/view?usp=sharing
-
-After downloading, you can get "carla_095.tar.gz". Please extract the gz file in your home dir.
-
-
-### 3. Pull Docker images of Automatic data collector 
-
-Pull the docker images of Automatic data collector using the code.
-
-```bash
-docker pull shunchan0677/carla-data-collector
-```
-
-
-### 4. Start Collecting data
+###  Start Collecting data using Automatic Data Collector
 
 For collecting rosbag data, Running CARLA server and the docker image are required.
 
@@ -76,7 +23,7 @@ bash scenario_runner/srunner/challenge/run_evaluator.sh # in docker terminal
 The rosbag data is saved on `<user>/<savedir>/PioMeidai`. (You need to check the path!)
 If you want to select save topics and path, you should change the line 30 of "/workspace/team_code/carla-autoware/autoware_launch/points_raw.launch" in docker container.
 
-### 5. Collected rosbag information
+### Collected rosbag information
 
 * tf
 * image_raw
