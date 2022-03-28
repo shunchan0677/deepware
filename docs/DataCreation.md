@@ -15,6 +15,14 @@ python nuscene_csv.py <lyft dataset path> <output dataset path>
 
 you can check created dataset like this.
 
+### 2. augmented dataset
+
+```bash
+cd deepware/src
+python nuscene_csv_random.py <lyft dataset path> <output dataset path>
+```
+
+you can create augmented dataset.
 
 
 ## Data creation for simulation
