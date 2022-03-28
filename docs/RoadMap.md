@@ -3,11 +3,11 @@
 ## 2022 Q1
 
 *  Open to public v1.0
-  *  Data Creation
-  *  Model Training
-  *  Model Evaluation
-  *  Pre-traing Model
-  *  Docker Environment
+   *  Data Creation
+   *  Model Training
+   *  Model Evaluation
+   *  Pre-training Model
+   *  Docker Environment
 *  Create wiki and some introduction for how to use
 
 ## 2022 Q2
