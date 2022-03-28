@@ -2,6 +2,7 @@
 # How to Install
 
 ## Deepware modules
+Deepware modules are for data collection, model training and model evaluation.
 
 ### 0. Requirements
 
@@ -9,7 +10,6 @@
 
 ### 1. Download our repo
 
-Deepware modules are for data collection, model training and model evaluation.
 
 ```bash
 git clone https://github.com/shunchan0677/deepware
