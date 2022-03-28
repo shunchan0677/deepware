@@ -27,7 +27,7 @@ you can create augmented dataset.
 
 ## Data creation for simulation
 
-###  Data Collection using Automatic Data Collector
+###  1. Data Collection using Automatic Data Collector
 
 For collecting rosbag data, Running CARLA server and the docker image are required.
 
@@ -51,7 +51,7 @@ bash scenario_runner/srunner/challenge/run_evaluator.sh # in docker terminal
 The rosbag data is saved on `<user>/<savedir>/PioMeidai`. (You need to check the path!)
 If you want to select save topics and path, you should change the line 30 of "/workspace/team_code/carla-autoware/autoware_launch/points_raw.launch" in docker container.
 
-### Collected rosbag information
+### 2. Collected rosbag information
 
 * tf
 * image_raw
@@ -70,6 +70,8 @@ If you want to select save topics and path, you should change the line 30 of "/w
 * vector_image_raw/without_ego_vehicle
 * all
 
-### 6. Sample Video
+### 3. Sample Video
 
 [![Sample Video](http://img.youtube.com/vi/YM7BAHmJwjM/0.jpg)](http://www.youtube.com/watch?v=YM7BAHmJwjM)
+
+###  4. Data Extraction from rosbag
