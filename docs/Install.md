@@ -30,7 +30,7 @@ cd deepware
 source bin/activate
 ```
 
-### 2. Install modules
+### 3. Install modules
 
 Install requirements module
 
