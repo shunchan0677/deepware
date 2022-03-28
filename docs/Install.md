@@ -3,11 +3,19 @@
 
 ## Deepware modules
 
+### 0. Requirements
+
+* Ubuntu 16.04 or Newer
+
+### 1. Download our repo
+
 Deepware modules are for data collection, model training and model evaluation.
 
 ```bash
 git clone https://github.com/shunchan0677/deepware
 ```
+
+### 2. Setup environment
 
 Install virtual env and Setup development environment(ex. python 2.7.5)
 
@@ -21,6 +29,8 @@ virtualenv deepware
 cd deepware
 source bin/activate
 ```
+
+### 2. Install modules
 
 Install requirements module
 
