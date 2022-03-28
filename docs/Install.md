@@ -9,13 +9,16 @@ Deepware modules are for data collection, model training and model evaluation.
 git clone https://github.com/shunchan0677/deepware
 ```
 
-Setup development environment(virtualenv, python 2.7.5)
+Install virtual env and Setup development environment(ex. python 2.7.5)
 
 ```bash
-sudo pip install virtualenv 
+pip install virtualenv 
 
+mkdir virtualenv
+cd virtualenv
 virtualenv deepware
 
+cd deepware
 source bin/activate
 ```
 
@@ -25,8 +28,12 @@ Install requirements module
 pip install requirements.txt
 ```
 
+## For Level5 dataset
 
-## Automatic data collector
+
+
+
+## For Automatic data collector
 
 Automatic data collector is simulator environment used CARLA, Docker and Autoware. The collected data is saved as ROSBAG.
 
