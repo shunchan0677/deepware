@@ -24,7 +24,7 @@ pip install requirements.txt
 
 ## Automatic data collector
 
-Automatic data collector is used CARLA, Docker and Autoware. The collected data is saved as ROSBAG.
+Automatic data collector is simulator environment used CARLA, Docker and Autoware. The collected data is saved as ROSBAG.
 
 ### 0. Requirements
 
