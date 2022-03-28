@@ -1,5 +1,25 @@
+# Data Creation
 
-###  Start Collecting data using Automatic Data Collector
+## Data creation for open dataset (Lyft-Level5 dataset)
+
+### 0. install dataset and lib
+
+please check here (https://github.com/shunchan0677/deepware/blob/master/docs/Install.md#for-level5-dataset).
+
+### 1. create dataset
+
+```bash
+cd deepware/src
+python nuscene_csv.py <lyft dataset path> <output dataset path>
+```
+
+you can check created dataset like this.
+
+
+
+## Data creation for simulation
+
+###  Data Collection using Automatic Data Collector
 
 For collecting rosbag data, Running CARLA server and the docker image are required.
 
