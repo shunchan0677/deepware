@@ -30,7 +30,7 @@ pip install requirements.txt
 
 ## For Level5 dataset
 
-Install https://github.com/lyft/nuscenes-devkit
+Install https://github.com/lyft/nuscenes-devkit  
 you can try to pip install. if it's failed, you can git clone this repo and set deepware/src
 
 And Download dataset from https://level-5.global/data/
