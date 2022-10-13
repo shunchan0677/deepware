@@ -35,15 +35,15 @@ If you use Deepware in your work, please cite the paper of [IEEE Access](https:/
 
 ```bibtex
 
-@inproceedings{deepware2022,
-    title={Deepware: An Open-Source Toolkit for Developing and Evaluating Learning-Based and Model-Based Autonomous Driving Models},
-    author={Shunya, Seiya and
-            Alexander, Carballo and
-            Eijiro, Takeuchi and
-            Kazuya, Takeda},
-    booktitle={IEEE Access},
-    year={2022}
-}
+@ARTICLE{9911616,
+  author={Seiya, Shunya and Carballo, Alexander and Takeuchi, Eijiro and Takeda, Kazuya},
+  journal={IEEE Access}, 
+  title={Deepware: An Open-Source Toolkit for Developing and Evaluating Learning-Based and Model-Based Autonomous Driving Models}, 
+  year={2022},
+  volume={10},
+  number={},
+  pages={105734-105743},
+  doi={10.1109/ACCESS.2022.3212152}}
 
 ```
 
