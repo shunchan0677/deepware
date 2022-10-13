@@ -31,7 +31,9 @@ Deepware is the Deep Learning-based Autonomous Driving Toolkit, mainly focuses o
 
 ## Citing Deepware
 
-If you use Deepware in your work, please cite the paper of IEEE Access:
+If you use Deepware in your work, please cite the paper of [IEEE Access](https://ieeexplore.ieee.org/document/9911616):
+
+```bibtex
 
 @inproceedings{deepware2022,
     title={Deepware: An Open-Source Toolkit for Developing and Evaluating Learning-Based and Model-Based Autonomous Driving Models},
@@ -42,3 +44,6 @@ If you use Deepware in your work, please cite the paper of IEEE Access:
     booktitle={IEEE Access},
     year={2022}
 }
+
+```
+
