@@ -29,6 +29,10 @@ Deepware is the Deep Learning-based Autonomous Driving Toolkit, mainly focuses o
 
 *  [Road map](https://github.com/shunchan0677/deepware/blob/master/docs/RoadMap.md)
 
+## Sample rosbag dataset
+
+* [Google Drive](https://drive.google.com/drive/folders/1VgsTy-9CpgoY0_tmTwouDKwN9w28CEPT?usp=sharing)
+
 ## Citing Deepware
 
 If you use Deepware in your work, please cite the paper of [IEEE Access](https://ieeexplore.ieee.org/document/9911616):
