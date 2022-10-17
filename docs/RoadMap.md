@@ -11,12 +11,12 @@
 
 ## 2023 Q1
 
-[ ]  Upgrade CARLA sim version and Autoware version
-[ ]  Import other ML lib (Pytorch and so on)
-[ ]  Import other toolkit models
+- [ ]  Upgrade CARLA sim version and Autoware version
+- [ ]  Import other ML lib (Pytorch and so on)
+- [ ]  Import other toolkit models
 
 ## 2023 Q2
 
-[ ]  CARLA Challenge leader board submission features
-[ ]  Open Pre-training model using larger Dataset (Nu Scenes dataset)
-[ ]  Model compression / Speed Inference feature
+- [ ]  CARLA Challenge leader board submission features
+- [ ]  Open Pre-training model using larger Dataset (Nu Scenes dataset)
+- [ ]  Model compression / Speed Inference feature
