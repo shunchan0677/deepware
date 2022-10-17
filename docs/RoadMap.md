@@ -2,7 +2,7 @@
 
 ## 2022 Q4
 
-- [x]  Open to public v1.0
+- [ ]  Open to public v1.0
    - [x]  Data Creation
    - [ ]  Model Training
    - [x]  Model Evaluation
