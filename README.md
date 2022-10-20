@@ -7,6 +7,7 @@ Deepware is the Deep Learning-based Autonomous Driving Toolkit, mainly focuses o
 * [Modules](#Modules)
 * [Road map](#Road-map)
 * [Data set](#Dataset)
+* [Models](#Models)
 * [Paper](#Citing-Deepware)
 
 
@@ -33,6 +34,11 @@ Deepware is the Deep Learning-based Autonomous Driving Toolkit, mainly focuses o
 ## Dataset
 
 * [Google Drive](https://drive.google.com/drive/folders/1VgsTy-9CpgoY0_tmTwouDKwN9w28CEPT?usp=sharing)
+
+## Models
+
+* Pre-trained model is available in [Google Drive](https://drive.google.com/drive/folders/1VgsTy-9CpgoY0_tmTwouDKwN9w28CEPT?usp=sharing) 
+* It is splitted in model.aa to model.al. the files should be combined to model.zip.
 
 ## Citing Deepware
 
